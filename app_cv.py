@@ -43,7 +43,7 @@ try:
             cv2.line(img, pt1, pt2, (0, 0, 255), 2)
 
         # เซฟภาพ
-        filepath = os.path.join(OUTPUT_DIR, "updated.jpg")
+        filepath = os.path.join(OUTPUT_DIR, "1234.jpg")
         cv2.imwrite(filepath, img)
         print(f"Saved: {filepath}")
 
